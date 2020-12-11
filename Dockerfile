@@ -1,4 +1,4 @@
-FROM ${BASE_IMAGE_NAME}
+FROM python:3.6
 WORKDIR /var/${SERVICE_NAME}
 COPY ./ /var/${SERVICE_NAME}
 RUN pipregs --debug ./

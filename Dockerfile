@@ -4,5 +4,3 @@ COPY ./ /var/flask-pythonapp/
 RUN pipreqs --debug ./
 RUN pip3 install -i https://mirrors.huaweicloud.com/repository/pypi/simple -r ./cis-requirements.txt
 CMD [ "python", "./server.py" ]
-
-EOF

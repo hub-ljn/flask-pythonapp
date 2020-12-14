@@ -1,4 +1,4 @@
-FROM console-intl.huaweicloud.com/op_svc_cse/python-x86_64:3-int-1.0
+FROM swr.ap-southeast-3.myhuaweicloud.com/op_svc_cse/python-x86_64:3-int-1.0
 WORKDIR /var/flask-pythonapp
 COPY ./ /var/flask-pythonapp/
 RUN pipreqs --debug ./
